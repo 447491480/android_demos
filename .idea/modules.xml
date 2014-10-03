@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/android_demos.iml" filepath="$PROJECT_DIR$/android_demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_autocompleteedittext/autocompletetextview_01/autocompletetextview_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_autocompleteedittext/autocompletetextview_01/autocompletetextview_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_edittext/edittext_01/edittext_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_edittext/edittext_01/edittext_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_edittext/edittext_02/edittext_02.iml" filepath="$PROJECT_DIR$/demo_ui/ui_edittext/edittext_02/edittext_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_textview/textview_01/textview_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_textview/textview_01/textview_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_textview/textview_02/textview_02.iml" filepath="$PROJECT_DIR$/demo_ui/ui_textview/textview_02/textview_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_textview/textview_03/textview_03.iml" filepath="$PROJECT_DIR$/demo_ui/ui_textview/textview_03/textview_03.iml" />
