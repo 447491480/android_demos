@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android_demos.iml" filepath="$PROJECT_DIR$/android_demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_textview/textview_01/textview_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_textview/textview_01/textview_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_textview/textview_02/textview_02.iml" filepath="$PROJECT_DIR$/demo_ui/ui_textview/textview_02/textview_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_textview/textview_03/textview_03.iml" filepath="$PROJECT_DIR$/demo_ui/ui_textview/textview_03/textview_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_textview/textview_04/textview_04.iml" filepath="$PROJECT_DIR$/demo_ui/ui_textview/textview_04/textview_04.iml" />
+    </modules>
+  </component>
+</project>
+

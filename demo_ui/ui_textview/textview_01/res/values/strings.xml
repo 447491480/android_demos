@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">textview_01</string>
+    <color name="green" >#00FF00</color>
+    <string name="link_text" ><a href="tel:13623412345" >打电话</a></string>
+</resources>
