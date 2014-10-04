@@ -8,7 +8,31 @@
     <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World, MyActivity"
+            android:text="scaleType:center 不缩放放在中间"
             />
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F00"
+            android:src="@drawable/image1"
+            android:scaleType="center"
+            android:id="@+id/imageview1"/>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="scaleType:fitCenter :按比例缩放"
+            />
+
+    <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:background="#FFF"
+            android:src="@drawable/image1"
+            android:scaleType="fitCenter"
+            android:id="@+id/imageview2"
+            android:padding="10dp"/>
 </LinearLayout>
 
