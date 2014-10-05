@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_imageview/imageview_02/imageview_02.iml" filepath="$PROJECT_DIR$/demo_ui/ui_imageview/imageview_02/imageview_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_imageview/imageview_03/imageview_03.iml" filepath="$PROJECT_DIR$/demo_ui/ui_imageview/imageview_03/imageview_03.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_imageview/imageview_04/imageview_04.iml" filepath="$PROJECT_DIR$/demo_ui/ui_imageview/imageview_04/imageview_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_listview/listview_01/listview_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_listview/listview_01/listview_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_radiobutton/radiobutton_01/radiobutton_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_radiobutton/radiobutton_01/radiobutton_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_scrollview/scrollview_01/scrollview_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_scrollview/scrollview_01/scrollview_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_seekbar/seekbar_01/seekbar_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_seekbar/seekbar_01/seekbar_01.iml" />

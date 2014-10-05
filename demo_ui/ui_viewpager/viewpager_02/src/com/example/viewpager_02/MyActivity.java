@@ -35,7 +35,7 @@ public class MyActivity extends Activity {
         myAdapter = new MyAdapter();
 
         inflater = LayoutInflater.from(MyActivity.this);
-        View tab = inflater.inflate(R.layout.tab,null);
+        final View tab = inflater.inflate(R.layout.tab,null);
         list = new ArrayList<View>();
         list.add(tab);
 
@@ -56,7 +56,10 @@ public class MyActivity extends Activity {
 
             @Override
             public void onPageScrollStateChanged(int i) {
-
+                View view = inflater.inflate(R.layout.tab,null);
+                list.add(view);
+                title.add("new title");
+                myAdapter.notifyDataSetChanged();
             }
         });
     }
