@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_edittext/edittext_01/edittext_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_edittext/edittext_01/edittext_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_edittext/edittext_02/edittext_02.iml" filepath="$PROJECT_DIR$/demo_ui/ui_edittext/edittext_02/edittext_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_gallery/gallery_01/gallery_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_gallery/gallery_01/gallery_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_gridview/gridview_01/gridview_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_gridview/gridview_01/gridview_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_scrollview/horizontalscrollview_01/horizontalscrollview_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_scrollview/horizontalscrollview_01/horizontalscrollview_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_imageswitcher/imageswitcher_01/imageswitcher_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_imageswitcher/imageswitcher_01/imageswitcher_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_imageview/imageview_01/imageview_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_imageview/imageview_01/imageview_01.iml" />
@@ -20,11 +21,15 @@
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_scrollview/scrollview_01/scrollview_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_scrollview/scrollview_01/scrollview_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_seekbar/seekbar_01/seekbar_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_seekbar/seekbar_01/seekbar_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_spinner/spinner_01/spinner_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_spinner/spinner_01/spinner_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_tabhost/tabhost_01/tabhost_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_tabhost/tabhost_01/tabhost_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_textview/textview_01/textview_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_textview/textview_01/textview_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_textview/textview_02/textview_02.iml" filepath="$PROJECT_DIR$/demo_ui/ui_textview/textview_02/textview_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_textview/textview_03/textview_03.iml" filepath="$PROJECT_DIR$/demo_ui/ui_textview/textview_03/textview_03.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_textview/textview_04/textview_04.iml" filepath="$PROJECT_DIR$/demo_ui/ui_textview/textview_04/textview_04.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_togglebutton/togglebutton_01/togglebutton_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_togglebutton/togglebutton_01/togglebutton_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_viewpager/viewpager_01/viewpager_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_viewpager/viewpager_01/viewpager_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_viewpager/viewpager_02/viewpager_02.iml" filepath="$PROJECT_DIR$/demo_ui/ui_viewpager/viewpager_02/viewpager_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_viewstud/viewstub_01/viewstub_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_viewstud/viewstub_01/viewstub_01.iml" />
     </modules>
   </component>
 </project>

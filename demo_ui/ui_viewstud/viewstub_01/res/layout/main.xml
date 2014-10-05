@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <!--静态的加载布局-->
+    <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/stub">
+    </include>
+
+    <!--动态加载布局文件-->
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFCCDD"
+            >
+        <ViewStub
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/stub"
+                android:layout="@layout/stub"/>
+
+            </LinearLayout>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="动态添加布局"
+            android:id="@+id/button1"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="动态隐藏布局"
+            android:id="@+id/button2"/>
+
+</LinearLayout>
+
