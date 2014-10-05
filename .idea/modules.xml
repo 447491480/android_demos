@@ -29,7 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_togglebutton/togglebutton_01/togglebutton_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_togglebutton/togglebutton_01/togglebutton_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_viewpager/viewpager_01/viewpager_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_viewpager/viewpager_01/viewpager_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_viewpager/viewpager_02/viewpager_02.iml" filepath="$PROJECT_DIR$/demo_ui/ui_viewpager/viewpager_02/viewpager_02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_viewstud/viewstub_01/viewstub_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_viewstud/viewstub_01/viewstub_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_viewstub/viewstub_01/viewstub_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_viewstub/viewstub_01/viewstub_01.iml" />
     </modules>
   </component>
 </project>
