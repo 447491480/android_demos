@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_checkbox/checkbox_01/checkbox_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_checkbox/checkbox_01/checkbox_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_edittext/edittext_01/edittext_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_edittext/edittext_01/edittext_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_edittext/edittext_02/edittext_02.iml" filepath="$PROJECT_DIR$/demo_ui/ui_edittext/edittext_02/edittext_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_data/data_file/file_01/file_01.iml" filepath="$PROJECT_DIR$/demo_data/data_file/file_01/file_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_gallery/gallery_01/gallery_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_gallery/gallery_01/gallery_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_gridview/gridview_01/gridview_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_gridview/gridview_01/gridview_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_scrollview/horizontalscrollview_01/horizontalscrollview_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_scrollview/horizontalscrollview_01/horizontalscrollview_01.iml" />
@@ -18,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_imageview/imageview_03/imageview_03.iml" filepath="$PROJECT_DIR$/demo_ui/ui_imageview/imageview_03/imageview_03.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_imageview/imageview_04/imageview_04.iml" filepath="$PROJECT_DIR$/demo_ui/ui_imageview/imageview_04/imageview_04.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_listview/listview_01/listview_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_listview/listview_01/listview_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_listview/listview_02/listview_02.iml" filepath="$PROJECT_DIR$/demo_ui/ui_listview/listview_02/listview_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_radiobutton/radiobutton_01/radiobutton_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_radiobutton/radiobutton_01/radiobutton_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_scrollview/scrollview_01/scrollview_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_scrollview/scrollview_01/scrollview_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_seekbar/seekbar_01/seekbar_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_seekbar/seekbar_01/seekbar_01.iml" />
