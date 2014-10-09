@@ -5,10 +5,30 @@
               android:layout_height="fill_parent"
         >
 
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:text="Hello ~"/>
+
     <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World, MyActivity"
-            />
+            android:id="@+id/textView"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="存入SD卡"
+            android:id="@+id/saveBtn"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="重新读取"
+            android:id="@+id/readBtn"/>
+
+
+
 </LinearLayout>
 
