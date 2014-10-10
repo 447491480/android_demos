@@ -25,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_seekbar/seekbar_01/seekbar_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_seekbar/seekbar_01/seekbar_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_data/data_sharedpreferences/sharepreferences_01/sharepreferences_01.iml" filepath="$PROJECT_DIR$/demo_data/data_sharedpreferences/sharepreferences_01/sharepreferences_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_spinner/spinner_01/spinner_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_spinner/spinner_01/spinner_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_data/data_sqlite/sqlite_01/sqlite_01.iml" filepath="$PROJECT_DIR$/demo_data/data_sqlite/sqlite_01/sqlite_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_tabhost/tabhost_01/tabhost_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_tabhost/tabhost_01/tabhost_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_textview/textview_01/textview_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_textview/textview_01/textview_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_textview/textview_02/textview_02.iml" filepath="$PROJECT_DIR$/demo_ui/ui_textview/textview_02/textview_02.iml" />

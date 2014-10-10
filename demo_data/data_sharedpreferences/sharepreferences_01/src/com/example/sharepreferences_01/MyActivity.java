@@ -15,13 +15,10 @@ public class MyActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-
         MySharedRef mySharedRef = new MySharedRef(this);
         mySharedRef.saveMessage("Hello","111111");
-
         Map<String,Object> retMap = mySharedRef.getMessage();
 
         Toast.makeText(this,retMap.get("name").toString(),Toast.LENGTH_SHORT).show();
-
     }
 }
