@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class SQLiteHelper extends SQLiteOpenHelper {
     private static String name = "mydb.db";
 
-    private static int version = 1;
+    private static int version = 3;
 
     public SQLiteHelper(Context context) {
         super(context,name,null,version);
@@ -24,6 +24,7 @@ public class SQLiteHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i2) {
-
+        String sql = "alter table person add sex varchar(8)";
+        sqLiteDatabase.execSQL(sql);
     }
 }

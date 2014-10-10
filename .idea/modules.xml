@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_button/button_01/button_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_button/button_01/button_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_button/button_02/button_02.iml" filepath="$PROJECT_DIR$/demo_ui/ui_button/button_02/button_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_checkbox/checkbox_01/checkbox_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_checkbox/checkbox_01/checkbox_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_data/data_contentprovider/contentprovider_01/contentprovider_01.iml" filepath="$PROJECT_DIR$/demo_data/data_contentprovider/contentprovider_01/contentprovider_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_edittext/edittext_01/edittext_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_edittext/edittext_01/edittext_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_edittext/edittext_02/edittext_02.iml" filepath="$PROJECT_DIR$/demo_ui/ui_edittext/edittext_02/edittext_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_data/data_file/file_01/file_01.iml" filepath="$PROJECT_DIR$/demo_data/data_file/file_01/file_01.iml" />
