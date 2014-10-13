@@ -1,5 +1,7 @@
 package com.example.sqlite_02;
 
+import android.content.ContentValues;
+
 import java.util.List;
 import java.util.Map;
 
@@ -9,11 +11,11 @@ import java.util.Map;
 public interface IPersionService {
     public boolean addPerson();
 
-    public boolean deletePerson(Object[] params);
+    public boolean deletePerson(String whereClause,String[] whereArgs);
 
-    public boolean updatePerson(Object[] params);
+    public boolean updatePerson(ContentValues values,String whereClause,String[] whereArgs);
 
-    public Map<String,String> viewPerson(String[] selectionArgs);
+    public Map<String,String> viewPerson(String selection,String[] selectionArgs);
 
-    public List<Map<String,String>> listPersonMaps(String[] selectionArgs);
+    public List<Map<String,String>> listPersonMaps(String selection,String[] selectionArgs);
 }

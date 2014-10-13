@@ -48,16 +48,40 @@ public class PersonService implements IPersionService {
     }
 
     @Override
-    public boolean deletePerson(Object[] params) {
+    public boolean deletePerson(String whereClause,String[] whereArgs) {
         boolean flag = false;
 
         SQLiteDatabase sqLiteDatabase = null;
+        long id = -1;
 
         try {
-            String sql = "delete from person where id = ?";
             sqLiteDatabase = helper.getWritableDatabase();
-            sqLiteDatabase.execSQL(sql,params);
-            flag = true;
+            id = sqLiteDatabase.delete("person",whereClause,whereArgs);
+            flag = id != -1;
+        }catch (Exception e) {
+            e.printStackTrace();
+
+        }finally {
+            if(sqLiteDatabase != null) {
+                sqLiteDatabase.close();
+            }
+
+        }
+
+        return flag;
+    }
+
+    @Override
+    public boolean updatePerson(ContentValues values,String whereClause,String[] whereArgs) {
+        boolean flag = false;
+
+        SQLiteDatabase sqLiteDatabase = null;
+        long id = -1;
+
+        try {
+            sqLiteDatabase = helper.getWritableDatabase();
+            id = sqLiteDatabase.update("person",values,whereClause,whereArgs);
+            flag = id!=-1;
         }catch (Exception e) {
             e.printStackTrace();
 
@@ -73,39 +97,13 @@ public class PersonService implements IPersionService {
     }
 
     @Override
-    public boolean updatePerson(Object[] params) {
-        boolean flag = false;
-
-        SQLiteDatabase sqLiteDatabase = null;
-
-        try {
-            String sql = "update person set name=?,address=?,sex=? where id=?";
-            sqLiteDatabase = helper.getWritableDatabase();
-            sqLiteDatabase.execSQL(sql,params);
-            flag = true;
-        }catch (Exception e) {
-            e.printStackTrace();
-
-        }finally {
-
-            if(sqLiteDatabase != null) {
-                sqLiteDatabase.close();
-            }
-
-        }
-
-        return flag;
-    }
-
-    @Override
-    public Map<String, String> viewPerson(String[] selectionArgs) {
+    public Map<String, String> viewPerson(String selection,String[] selectionArgs) {
         Map<String,String> map = new HashMap<String, String>();
         SQLiteDatabase sqLiteDatabase = null;
-
+        Cursor cursor = null;
         try{
-            String sql="select * from person where id=?";
-            sqLiteDatabase = helper.getWritableDatabase();
-            Cursor cursor = sqLiteDatabase.rawQuery(sql,selectionArgs);
+            sqLiteDatabase = helper.getReadableDatabase();
+            cursor = sqLiteDatabase.query(true,"person",null,selection,selectionArgs,null,null,null,null);
             int colums = cursor.getColumnCount();
 
             while (cursor.moveToNext()) {
@@ -133,14 +131,13 @@ public class PersonService implements IPersionService {
     }
 
     @Override
-    public List<Map<String, String>> listPersonMaps(String[] selectionArgs) {
+    public List<Map<String, String>> listPersonMaps(String selection,String[] selectionArgs) {
         List<Map<String,String>> list = new ArrayList<Map<String, String>>();
-        String sql = "select * from persion";
         SQLiteDatabase sqLiteDatabase = null;
-
+        Cursor cursor = null;
         try {
             sqLiteDatabase = helper.getWritableDatabase();
-            Cursor cursor = sqLiteDatabase.rawQuery(sql,selectionArgs);
+            cursor = sqLiteDatabase.query(false,"person",null,selection,selectionArgs,null,null,null,null);
             int colums = cursor.getColumnCount();
 
             while (cursor.moveToNext()) {

@@ -16,5 +16,28 @@
             android:layout_height="wrap_content"
             android:id="@+id/insertBtn"
             android:text="添加Person"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/deleteBtn"
+            android:text="删除Person"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/updateBtn"
+            android:text="修改Person"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/queryPersonBtn"
+            android:text="查询Person"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/queryPersonsBtn"
+            android:text="查询Persons"/>
 </LinearLayout>
+
 
