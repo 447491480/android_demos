@@ -1,5 +1,6 @@
-package com.example.sqlite_01;
+package com.example.sqlite_02;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -20,27 +21,29 @@ public class PersonService implements IPersionService {
     }
 
     @Override
-    public boolean addPerson(Object[] params) {
+    public boolean addPerson() {
         boolean flag = false;
 
         SQLiteDatabase sqLiteDatabase = null;
+        long id = -1;
 
         try {
-            String sql = "insert into person(name,address,sex)values(?,?,?)";
             sqLiteDatabase = helper.getWritableDatabase();
-            sqLiteDatabase.execSQL(sql,params);
-            flag = true;
+
+            ContentValues values = new ContentValues();
+            values.put("name","jack");
+            values.put("address","xxx");
+
+            id = sqLiteDatabase.insert("person",null,values);
+            flag = id != -1;
         }catch (Exception e) {
             e.printStackTrace();
 
         }finally {
-
             if(sqLiteDatabase != null) {
                 sqLiteDatabase.close();
             }
-
         }
-
         return flag;
     }
 
