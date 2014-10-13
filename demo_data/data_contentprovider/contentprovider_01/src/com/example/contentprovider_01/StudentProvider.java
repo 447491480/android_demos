@@ -9,8 +9,6 @@ import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.util.Log;
 
-import java.util.Locale;
-
 /**
  * Created by chang on 14-10-10.
  */
@@ -35,6 +33,28 @@ public class StudentProvider extends ContentProvider {
 
     @Override
     public Cursor query(Uri uri, String[] strings, String s, String[] strings2, String s2) {
+        Cursor cursor = null;
+
+        try {
+            SQLiteDatabase sqLiteDatabase = helper.getReadableDatabase();
+            int flag = URI_MATCHER.match(uri);
+            switch (flag) {
+                case STUDENT:
+                    long id = ContentUris.parseId(uri);
+                    String where_value = " id = " + id;
+
+                    if(s!=null && s.equals("")) {
+                        where_value += " and "+ strings
+                    }
+                    break;
+                case SUTDENTS:
+                    break;
+            }
+
+        }catch (Exception e) {
+            e.printStackTrace();
+        }
+
         return null;
     }
 
@@ -74,11 +94,55 @@ public class StudentProvider extends ContentProvider {
 
     @Override
     public int delete(Uri uri, String s, String[] strings) {
-        return 0;
+        int count = -1;
+
+        try {
+            int flag = URI_MATCHER.match(uri);
+            SQLiteDatabase database = helper.getWritableDatabase();
+            switch (flag) {
+                case STUDENT:
+                    long id = ContentUris.parseId(uri);
+                    String where_value = "id="+id;
+                    if(s != null && !s.equals("")) {
+                        where_value += " and " + s;
+                    }
+                    count = database.delete("student",where_value,strings);
+                    break;
+                case SUTDENTS:
+
+                    count = database.delete("student",s,strings);
+                    break;
+            }
+        }catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return count;
+
     }
 
     @Override
     public int update(Uri uri, ContentValues contentValues, String s, String[] strings) {
-        return 0;
+        int count = -1;
+
+        try{
+            long id = ContentUris.parseId(uri);
+            SQLiteDatabase sqLiteDatabase = helper.getWritableDatabase();
+            int flag = URI_MATCHER.match(uri);
+            switch (flag) {
+                case STUDENT:
+                    String where_value = "id=" + id;
+                    if(s!=null && s.equals("")) {
+                        where_value += " and " + s;
+                    }
+                    count = sqLiteDatabase.update("student",contentValues,where_value,strings);
+                    break;
+                case SUTDENTS:
+                    break;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return count;
     }
 }
