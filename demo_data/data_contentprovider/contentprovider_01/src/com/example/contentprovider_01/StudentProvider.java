@@ -59,7 +59,7 @@ public class StudentProvider extends ContentProvider {
             e.printStackTrace();
         }
 
-        return null;
+        return cursor;
     }
 
     @Override
