@@ -44,10 +44,14 @@ public class StudentProvider extends ContentProvider {
                     String where_value = " id = " + id;
 
                     if(s!=null && s.equals("")) {
-                        where_value += " and "+ strings
+                        where_value += " and "+ s;
                     }
+
+                    cursor = sqLiteDatabase.query("student",null,where_value,strings,null,null,null,null);
                     break;
                 case SUTDENTS:
+                    cursor = sqLiteDatabase.query("student",null,s,strings,null,null,null,null);
+
                     break;
             }
 

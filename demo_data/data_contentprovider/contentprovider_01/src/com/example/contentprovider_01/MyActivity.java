@@ -3,6 +3,7 @@ package com.example.contentprovider_01;
 import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.ContentValues;
+import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -53,6 +54,44 @@ public class MyActivity extends Activity {
                 Uri uri = Uri.parse("content://com.example.contentprovider_01.StudentProvider/student/1");
                 int i = contentResolver.delete(uri,null,null);
                 System.out.println(Integer.toString(i));
+            }
+        });
+
+        updateBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ContentResolver contentResolver = getContentResolver();
+                Uri uri = Uri.parse("content://com.example.contentprovider_01.StudentProvider/student/2");
+                ContentValues values = new ContentValues();
+                values.put("name","lisi");
+                values.put("address","hefei");
+                contentResolver.update(uri,values,null,null);
+            }
+        });
+
+        queryPersonBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ContentResolver contentResolver = getContentResolver();
+                Uri uri = Uri.parse("content://com.example.contentprovider_01.StudentProvider/student/2");
+                Cursor cursor = contentResolver.query(uri,null,null,null,null);
+
+                while(cursor.moveToNext()) {
+                    System.out.println("-->"+cursor.getString(cursor.getColumnIndex("name")));
+                }
+            }
+        });
+
+        queryPersonsBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ContentResolver contentResolver = getContentResolver();
+                Uri uri = Uri.parse("content://com.example.contentprovider_01.StudentProvider/student");
+                Cursor cursor = contentResolver.query(uri,null,null,null,null);
+
+                while(cursor.moveToNext()) {
+                    System.out.println("-->"+cursor.getString(cursor.getColumnIndex("name")));
+                }
             }
         });
 
