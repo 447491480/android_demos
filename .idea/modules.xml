@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo_dialog/dialog_alertdialog/alertdialog_01/alertdialog_01.iml" filepath="$PROJECT_DIR$/demo_dialog/dialog_alertdialog/alertdialog_01/alertdialog_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/android_demos.iml" filepath="$PROJECT_DIR$/android_demos.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_autocompleteedittext/autocompletetextview_01/autocompletetextview_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_autocompleteedittext/autocompletetextview_01/autocompletetextview_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_ui/ui_button/button_01/button_01.iml" filepath="$PROJECT_DIR$/demo_ui/ui_button/button_01/button_01.iml" />
